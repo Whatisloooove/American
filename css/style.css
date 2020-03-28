@@ -1,0 +1,1100 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 28px 0;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*  LOGO  */
+
+.head_logo {
+    position: relative;
+}
+
+.hotel {
+    font-family: "Bebas Neue Bold";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 2.04px;
+}
+
+.america {
+    color: #4e26fd;
+    font-family: "Bebas Neue Bold";
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.75px;
+}
+
+.stars_ones {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.stars_second {
+    position: absolute;
+    top: 2px;
+    right: 21px;
+}
+
+.stars_three {
+    position: absolute;
+    top: -12px;
+    right: 12px;
+}
+
+/* /LOGO  */
+
+.head_nav {
+    text-decoration: none;
+    color: #0f0f0f;
+    font-family: Bebas;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+    margin-left: 35px;
+}
+
+.head_images {
+    margin-bottom: 60px;
+}
+
+
+.hd-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.head_item {
+    position: relative;
+}
+
+.head_item_text {
+    position: absolute;
+    bottom: 15px;
+    left: 120px;
+}
+
+.head_item_text span {
+    display: block;
+}
+
+.white {
+    color: #ffffff;
+    font-size: 112px;
+    font-family: "Bebas Neue Bold";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.black {
+    color: #000000;
+    font-family: "Bebas Neue Bold";
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+}
+
+.serching_block {
+    padding: 32px 34px;
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    border-bottom: 11px solid #4e26fd;
+}
+
+.input_choise {
+    box-sizing: border-box;
+    padding: 18px 0 18px 18px;
+    margin-right: 14px;
+    border: none;
+}
+
+.search_btn {
+    background-color: #4e26fd;
+    color: #ffffff;
+    font-family: Bebas;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    min-height: 54px;
+    border: none;
+    padding: 0 33px;
+}
+
+.hotel_list {
+    padding: 130px 0 100px 0;
+}
+
+.hotel_title {
+    text-align: center;
+    color: #000000;
+    font-family: "Bebas Neue Bold";
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 3.3px;
+    margin-bottom: 42px;
+}
+
+.hotel_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
+
+.hotel_item {
+    text-align: center;
+    width: 31%;
+}
+
+.hotel_item_title {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    margin-top: 33px;
+    margin-bottom: 19px;
+}
+
+.hotel_item_text {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.64px;
+}
+
+.hotel_buttom {
+    text-align: center;
+}
+
+.hotel_btn {
+    padding: 15px 60px;
+    color: #4e26fd;
+    border: 2px solid #4e26fd;
+    font-family: "Bebas Neue Bold";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.44px;
+    background-color: transparent;
+}
+
+
+/*  ACTIVISION  */
+
+.activisoin_list {
+    margin-bottom: 100px;
+}
+
+.activison_title {
+    text-align: center;
+    color: #000000;
+    font-family: "Bebas Neue Bold";
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.51px;
+    margin-bottom: 40px;
+}
+
+.activision_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activion_item {
+    position: relative;
+}
+
+.activion_item img {
+    width: 300px;
+}
+
+.activion_item_abs {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.activion_item_title {
+    color: #ffffff;
+    font-family: "Bebas Neue Bold";
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.activion_item_text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.64px;
+}
+
+
+/* ROOM  */
+
+.all_rooms {
+    margin-bottom: 100px;
+}
+
+.room_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.rooms_title {
+    text-align: center;
+    color: #000000;
+    font-family: "Bebas Neue Bold";
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.97px;
+    margin-bottom: 80px;
+}
+
+
+.room_item_lfrf {
+    width: 244px;
+}
+
+.room_lfrf_item {
+    margin-bottom: 36px;
+}
+
+.room_lfrf_item:last-child {
+    margin-bottom: 0;
+}
+
+.room_lfrf_item img {
+    margin-bottom: 17px;
+    width: 242px;
+}
+
+.room_center {
+    width: 579px;
+}
+
+.room_center_item img {
+    margin-bottom: 17px;
+}
+
+.room_title {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    margin-bottom: 8px;
+}
+
+.room_text {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.64px;
+}
+
+
+/*  WINTER  */
+
+.winter_bground {
+    background-image: url(../img/winter.jpg);
+    width: 1500px;
+    height: 554px;
+    position: relative;
+    margin-bottom: 105px;
+}
+
+.winter_disc {
+    position: absolute;
+    top: 111px;
+    right: 190px;
+}
+
+.winter_title {
+    text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    font-family: "Bebas Neue Bold";
+    font-size: 130px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.75px;
+}
+
+.winter_text {
+    text-shadow: 1px 3px 0 #000000;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.64px;
+    margin-bottom: 45px;
+}
+
+.winter_btn {
+    background-color: #0000ff;
+    padding: 19px 65px;
+    border: none;
+    color: #ffffff;
+    font-family: Bebas;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1.02px;
+    text-transform: uppercase;
+}
+
+/* NEW  */
+
+.new_title {
+    color: #000000;
+    font-family: "Bebas Neue Bold";
+    font-size: 112px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.75px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.news-inner {
+    margin-bottom: 73px;
+}
+
+.news_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.news_item {
+    width: 354px;
+}
+
+.news_item img {
+    width: 353px;
+    margin-bottom: 27px;
+}
+
+.news_title {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    margin-bottom: 16px;
+}
+
+.news_text {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.64px;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #252525;
+    padding: 34px 0;
+}
+
+.footer_item_one {
+    width: 235px;
+}
+
+
+.footer_logo {
+    position: relative;
+}
+
+.foot_ones {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.foot_second {
+    position: absolute;
+    top: 0;
+    right: 24px;
+}
+
+.foot_three {
+    position: absolute;
+    top: -12px;
+    right: 12px;
+}
+
+.footer_item_one_text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.footer_text_streat {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.footer_text_streat:before {
+    content: "\e947";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer_text_number {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.footer_text_number:before {
+    content: "\e958";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer_text_mail {
+    padding-left: 40px;
+    position: relative;
+}
+
+.footer_text_mail:before {
+    content: "\e900";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hotel_footer {
+    color: #fff;
+}
+
+.footer_item_twoo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_item_twoo_text {
+    margin-right: 80px;
+}
+
+.footer_item_twoo_text:last-child {
+    margin: 0;
+}
+
+
+.footer_item_twoo_text_disc {
+    color: #ffffff;
+    font-family: "Bebas Neue Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.26px;
+    margin-bottom: 18px;
+}
+
+.footer_item_twoo_text_disc:last-child {
+    margin: 0;
+}
+
+.footer_social {
+    color: #fff;
+}
+
+.footer_soc_text {
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+}
+
+.ft_social i {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.ft_social i:last-child {
+    margin: 0;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+
+    .head_item_text {
+        bottom: -10%;
+        left: 7%;
+    }
+    .white {
+        font-size: 100px;
+    }
+    .black {
+        font-size: 50px;
+    }
+
+
+    .hd-img {
+        width: 100%;
+    }
+    .head_item{
+        width: 75%;
+    }
+    .head_item img{
+        width: 100%;
+    }
+    .head_item_left{
+        width: 25%;
+    }
+    .head_item_left img {
+        width: 100%;
+        height: 50%;
+    }
+
+
+    .activion_item {
+        width: 20%;
+    }
+    .activion_item img {
+        width: 100%;
+    }
+    .winter_bground {
+        width: 100%;
+    }
+
+
+
+
+
+    .input_choise {
+        width: 18%;
+        padding: 18px 18px 18px 18px;
+    }
+
+    .hotel_item {
+        width: 31%;
+    }
+
+    .hotel_item img {
+        width: 100%;
+    }
+
+    .hotel_btn {
+        padding: 10px 60px;
+    }
+
+    .all_rooms {
+        margin-bottom: 10%;
+    }
+
+    .rooms_title {
+        margin-bottom: 7%;
+    }
+
+    .room_item_lfrf {
+        width: 23%;
+    }
+
+    .room_lfrf_item {
+        margin-bottom: 15%;
+    }
+
+    .room_lfrf_item img {
+        width: 100%;
+    }
+
+    .room_center {
+        width: 50%;
+    }
+
+    .room_center_item img {
+        width: 100%;
+    }
+
+    .room_title {
+        margin-bottom: 2%;
+    }
+
+    .room_text {
+        font-size: 14px;
+    }
+
+    .news_item {
+        width: 30%;
+    }
+
+    .news_item img {
+        width: 100%;
+        margin-bottom: 7%;
+    }
+
+    .news_text {
+        font-size: 14px;
+    }
+
+    .footer_text_streat {
+        margin-bottom: 10%;
+    }
+
+    .footer_text_number {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 740px;
+    }
+
+
+
+
+    .head_item_text {
+        bottom: -12%;
+        left: 7%;
+    }
+    .white {
+        font-size: 78px;
+    }
+    .black {
+        font-size: 39px;
+    }
+
+
+    /* searching*/
+    .serching_block {
+        padding: 3% 2%;
+    }
+    .input_choise {
+        width: 20%;
+        padding: 18px 18px 18px 18px;
+        margin-right: 2%;
+    }
+    .search_btn {
+        padding: 0;
+    }
+
+
+    /* Horel-list */
+    .hotel_list {
+        padding: 5% 0 5% 0;
+    }
+    .hotel_title {
+        font-size: 53px;
+        margin-bottom: 3%;
+    }
+
+    /* activision*/
+
+    .activison_title {
+        font-size: 53px;
+        margin-bottom: 2%;
+    }
+    
+
+    /* all-rooms*/
+
+    .rooms_title {
+        font-size: 50px;
+        margin-bottom: 2%;
+    }
+
+
+    .new_title {
+        font-size: 90px;
+    }
+    .footer_inner {
+        flex-wrap: wrap;
+    }
+
+    .footer_social {
+        margin: 0 auto;
+    }
+
+    .footer_soc_text {
+        text-align: center;
+    }
+
+    .ft_social i {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .head_nav {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .serching_block {
+        padding: 17px 17px;
+    }
+
+    .input_choise {
+        padding: 7px 7px 7px 10px;
+    }
+
+    .search_btn {
+        font-size: 15px;
+        padding: 0 6px;
+        min-height: auto;
+    }
+
+
+    .rooms_title {
+        font-size: 38px;
+    }
+
+    .room_item_lfrf {
+        width: 28%;
+    }
+
+    .room_center {
+        width: 40%;
+    }
+    .room_text {
+        font-size: 12px;
+    }
+    .room_title {
+        font-size: 12px;
+    }
+
+    .head_nav {
+        flex-basis: 20%;
+    }
+
+    .hotel_list {
+        padding: 10% 0 6% 0;
+    }
+
+    .new_title {
+        font-size: 38px;
+        margin-bottom: 8%;
+    }
+    .news_title {
+        font-size: 12px;
+    }
+    .hotel_item_title {
+        font-size: 15px;
+        margin-bottom:5%;
+        margin-top: 10%;
+    }
+    .hotel_item_text {
+        font-size: 12px;
+        letter-spacing: 0.64px;
+
+    }
+    .hotel_title {
+        font-size: 38px;
+    }
+
+    .footer_item_twoo_text {
+        margin-right: 10px;
+    }
+    .footer_item_twoo_text_disc {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .footer_text_streat {
+        margin-bottom: 4%;
+    }
+    .footer_text_number {
+        margin-bottom: 4%;
+    }
+    .ft_social i {
+        border-radius: 50%;
+    }
+    .news_text {
+        font-size: 12px;
+    }
+    /*activision*/
+    .activion_item_abs {
+        left: 7px;
+    }
+    .activion_item_title {
+        font-size: 21px;
+    }
+    .activion_item_text {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 578px) {
+    .container {
+        max-width: 90%;
+    }
+    .header_inner{
+        flex-wrap:wrap;
+    }
+    .news_text {
+        font-size: 11px;
+    }
+    .hotel_title {
+        font-size: 19px;
+        margin-bottom: 3%;
+    }
+    .serching_block{
+        padding: 11px 17px;
+        border-bottom: 7px solid #4e26fd;
+    }
+    .nav {
+        width: 100%;
+    }
+    .header {
+        padding: 6% 0;
+    }
+    .head_nav{
+        margin: 0;
+        font-size: 9px;
+        margin-right: 1%;
+    }
+    .head_nav:last-child{
+        margin: 0;
+    }
+    .hotel_list {
+        padding: 6% 0 6% 0;
+    }
+
+    .search_btn {
+        font-size: 11px;
+        padding: 0px 0px;
+    }
+    .input_choise {
+        padding: 3px 7px 3px 3px;
+        margin-right: 2%;
+        width: 21%;
+    }
+    .rooms_title {
+        font-size: 19px;
+    }
+    .hotel_btn {
+        padding: 0px 5px;
+        font-size: 20px;
+    }
+    .new_title {
+        font-size: 19px;
+        margin-bottom: 4%;
+    }
+    .all_rooms {
+        margin-bottom: 4%;
+    }
+    .ft_social i {
+        margin: 0;
+        margin: 0;
+        width: 10%;
+    }
+    .room_lfrf_item img {
+        margin: 0;
+    }
+    .room_center_item img {
+        margin: 0;
+    }
+    .room_text {
+        font-size: 11px;
+    }
+    .news_title {
+        font-size: 11px;
+        margin-bottom: 5%;
+    }
+    .news_block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12%;
+    }
+    .news-inner {
+        margin-bottom: 10%;
+    }
+    .footer {
+        background-color: #252525;
+        padding: 5% 0;
+    }
+    .footer_item_one {
+        margin: 0 auto;
+        display: none;
+    }
+    .footer_item_one_text {
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    .footer_item_twoo {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .footer_item_twoo_text {
+        text-align: center;
+        margin-bottom: 7%;
+    }
+    .footer_soc_text {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+    .head_item_text {
+        bottom: -13%;
+        left: 7%;
+    }
+    .white {
+        font-size: 31px;
+    }
+    .black {
+        font-size: 19px;
+    }
+    .activison_title {
+        font-size: 19px;
+    }
+    .activisoin_list {
+        margin-bottom: 5%;
+    }
+
+
+
+    .winter_bground {
+        width: auto;
+        height: 138px;
+        margin-bottom: 6%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .winter_disc {
+        position: absolute;
+        top: 19px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .winter_title {
+        font-size: 19px;
+        margin-bottom: 2%;
+    }
+    .winter_text {
+        font-size: 10px;
+        margin-bottom: 3%;
+        width: 50%;
+        margin: 0 auto;
+        text-shadow: none;
+    }
+    .winter_btn {
+        font-size: 17px;
+        margin-top: 5%;
+        padding: 0;
+    }
+    .activion_item_title {
+        font-size: 11px;
+        margin-bottom: 130%;
+    }
+    .activion_item_abs {
+        left: 0;
+        top: 0;
+        padding: 6%;
+    }
+    .activion_item_text {
+        font-size: 7px;
+    }
+
+    .hotel_block {
+        margin-bottom: 5%;
+    }
+    .hotel_item_text {
+        font-size: 10px;
+    }
+    .hotel_item_title {
+        font-size: 11px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .footer_item_twoo_text_disc {
+        font-size: 10px;
+        margin-bottom: 9%;
+        margin-right: 0%;
+    }
+    .footer_social {
+        margin: 0 auto;
+        width: 53%;
+    }
+}
+
+
+/*
+.search_btn {
+    font-size: 11px;
+    padding: 6.5px 18px;
+}
+*/
+
+::-webkit-input-placeholder {
+    /* Chrome */
+    color: #AEAEAE;
+    font-size: 12px;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #AEAEAE;
+    font-size: 12px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #AEAEAE;
+    font-size: 12px;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: #AEAEAE;
+    font-size: 12px;
+    opacity: 1;
+}
